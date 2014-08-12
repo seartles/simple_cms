@@ -1,0 +1,23 @@
+
+---
+subjects:
+  columns:
+  - id
+  - name
+  - position
+  - visible
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - First Updated Subject
+    - 1
+    - true
+    - 2014-08-02 20:12:23.000000000 Z
+    - 2014-08-02 20:24:23.000000000 Z
+  - - 2
+    - Second Updated Subject
+    - 2
+    - true
+    - 2014-08-02 20:21:26.000000000 Z
+    - 2014-08-02 20:27:10.000000000 Z
