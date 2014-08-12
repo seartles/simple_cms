@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 #Seed to Database
-gem 'yaml_db'
+gem "yaml_db", :github => "turgu1/yaml_db"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
