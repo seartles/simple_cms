@@ -59,6 +59,52 @@ pages:
     - 2014-08-14 21:21:05.000000000 Z
 
 ---
+section_edits:
+  columns:
+  - id
+  - admin_user_id
+  - section_id
+  - summary
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - 1
+    - Test Edit
+    - 2014-08-15 01:37:11.000000000 Z
+    - 2014-08-15 01:38:24.000000000 Z
+  - - 2
+    - 1
+    - 1
+    - Another edit
+    - 2014-08-15 01:43:21.000000000 Z
+    - 2014-08-15 01:43:21.000000000 Z
+
+---
+sections:
+  columns:
+  - id
+  - page_id
+  - name
+  - position
+  - visible
+  - content_type
+  - content
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 
+    - Section One
+    - 1
+    - false
+    - 
+    - 
+    - 2014-08-15 01:27:08.000000000 Z
+    - 2014-08-15 01:27:08.000000000 Z
+
+---
 subjects:
   columns:
   - id
