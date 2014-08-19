@@ -1,4 +1,5 @@
 class SectionController < ApplicationController
+  layout "admin"
   def new
     @section=Section.new()
   end

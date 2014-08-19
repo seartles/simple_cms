@@ -1,12 +1,5 @@
-<% if !flash[:notice].blank? %>
-    <div clas="notice">
-      <%= flash[:notice]%>
-    </div>
-<% end %>
-
 <div class="sections index">
-  <h1>sections#index</h1>
-
+  <h1>Sections</h1>
   <%= link_to("Add New section", {:action => 'new' }, :class=> 'action new')%>
   <table class="listing" summary="section List">
     <tr class ="header">

@@ -1,5 +1,5 @@
 class PageController < ApplicationController
-  layout false
+  layout "admin"
   def index
     @pages=Page.all
   end
